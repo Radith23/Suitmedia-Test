@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.firstScreen.FirstScreen">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="250dp"
+        android:contentDescription="@string/photo"
+        android:src="@drawable/ic_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <sns.example.suitmediatest.customview.NameEditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_edit_text"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:paddingVertical="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:translationZ="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_photo" />
+
+    <sns.example.suitmediatest.customview.PalindromeEditText
+        android:id="@+id/edit_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="@string/hint_palindrome"
+        android:paddingVertical="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:translationZ="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn"
+        android:elevation="10dp"
+        android:text="@string/check_palindrome"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_palindrome" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_btn"
+        android:elevation="10dp"
+        android:text="@string/check_next"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_check" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

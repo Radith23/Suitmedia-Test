@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SuitmediaTest</string>
+    <string name="photo">photo</string>
+    <string name="error_empty_name">Please insert your name</string>
+    <string name="error_empty_palindrome">Please insert text</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_palindrome">Palindrome</string>
+    <string name="check_palindrome">Check</string>
+    <string name="check_next">Next</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="ic_button">ic_button</string>
+    <string name="welcome">Welcome</string>
+    <string name="username">Username</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="third_screen">Third Screen</string>
+    <string name="fullname">Firstname Lastname</string>
+    <string name="email">EMAIL@EMAIL.COM</string>
+    <string name="error_timeout">Error Timeout!</string>
+    <string name="reload">Reload</string>
+    <string name="empty_data">Data is Empty !</string>
+    <string name="error">Error, refresh to load data</string>
+    <string name="is_palindrome">isPalindrome</string>
+    <string name="not_palindrome">Not Palindrome</string>
+    <string name="empty_palindrome">Palindrome is Empty</string>
+    <string name="name_cannot_empty">Name Cannot Empty</string>
+</resources>
