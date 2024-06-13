@@ -7,7 +7,10 @@ This application is build from the study cases provided by Suitmedia for the int
 - **Sending Simple Data** : This application utilizes sending data to its pages such as names using putExtra
 ## Screenshots
 <p align="left">
-  <img width="230" height="500" src="movieMania-splash.png">
-  <img width="230" height="500" src="movieMania-main.png">
-  <img width="230" height="500" src="movieMania-detail.png">
+  <img width="200" height="430" src="screen1.png">
+  <img width="200" height="430" src="screen1_palindrome.png">
+  <img width="200" height="430" src="screen2.png">
+  <br><br>
+  <img width="200" height="430" src="screen3.png">
+  <img width="200" height="430" src="screen2_username.png">
 </p>
